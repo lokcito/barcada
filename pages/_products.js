@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {productService} from './services/productService.js';
+import {productService} from '../services/productService.js';
 import Search from './_search.js';
 
 function Products() {
