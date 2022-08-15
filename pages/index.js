@@ -15,6 +15,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Classic Alpaca Quotes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
       <main className={styles.main}>
