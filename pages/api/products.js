@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
-export default (req, res) => {
+const products = (req, res) => {
   // Open Chrome DevTools to step through the debugger!
   // debugger;
   res.status(200).json({
@@ -107,3 +107,5 @@ export default (req, res) => {
     ]
   });
 };
+
+export default products;

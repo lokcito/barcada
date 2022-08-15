@@ -9,15 +9,18 @@ function Products() {
   const [items, setItems] = useState([]);
   const [keyWord, setKeyWord] = useState("");
 
-  useEffect(async () => {
-    if ( !ready ) {
-      let res = await productService.filter();
-      if (res.data["status"] ) {
-        setItems(res.data["objects"]);
-      }
+  useEffect(() => {
+    async function fetchData () {
+      if ( !ready ) {
+        let res = await productService.filter();
+        if (res.data["status"] ) {
+          setItems(res.data["objects"]);
+        }
 
-      setReady(true);
+        setReady(true);
+      }
     }
+    fetchData();
   }, [ready]);
 
   let onSearch = (p1) => {
