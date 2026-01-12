@@ -125,7 +125,7 @@
     display: none;
   }
   .minitable {
-    display: block;
+    display: table;
   }
 }
 @media (min-width: 601px) and (max-width: 1024px) {
@@ -133,7 +133,7 @@
     width: 720px;
   }
   .fulltable {
-    display: block;
+    display: table;
   }
   .minitable {
     display: none;
@@ -144,7 +144,7 @@
     width: 1024px;
   }
   .fulltable {
-    display: block;
+    display: table;
   }
   .minitable {
     display: none;

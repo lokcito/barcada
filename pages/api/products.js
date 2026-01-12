@@ -11,7 +11,7 @@ const products = (req, res) => {
       {"name": "Agathe Turtleneck Alpaca Sweater", "id": 7870, "color": "Natural-Black", "size": "S", "catalog": "NO", "fob": 87.40},
       {"name": "Antonia Half-Zip Alpaca Sweater", "id": 7873, "color": "Black-Natural", "size": "M", "catalog": "NO", "fob": 61.20},
       {"name": "Princess Alpaca Cardigan", "id": 7885, "color": "Black-Natural", "size": "S", "catalog": "NO", "fob": 60.50},
-      {"name": "Classic Alpaca Full-Zip Cardigan", "id": 7881, "color": "Black-Grey Mlge.", "size": "S", "catalog": "NO", "fob": 67.00},
+      {"name": "Full-Zip Cardigan", "id": 7881, "color": "Black-Grey Mlge.", "size": "S", "catalog": "NO", "fob": 67.00},
       {"name": "Misha Alpaca Sweater Dress", "id": 6452, "color": "Black o Lt. Grey", "size": "O/S", "catalog": "NO", "fob": 68.50},
       {"name": "Annaisha Alpaca Sweater", "id": 6456, "color": "Black-Natural", "size": "M", "catalog": "NO", "fob": 43.50},
       {"name": "Ivane Alpaca Sweater", "id": 6093, "color": "Natural", "size": "M", "catalog": "NO", "fob": 62.90},
